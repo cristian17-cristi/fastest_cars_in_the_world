@@ -1,0 +1,89 @@
+
+
+
+*{    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Bold{
+    font-weight: bold;
+}
+
+body {
+    font-family: 'Montserrat';
+    background-color: #0b0c10;
+    color: #c5c6c7;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(135deg, #1f2833 0%, #0b0c10 100%);
+    padding: 60px 0;
+    text-align: center;
+    border-bottom: 3px solid #45f3ff;
+}
+footer {
+    text-align: center;
+    padding: 30px 0;
+    background-color: #0b0c10;
+    border-top: 1px solid #1f2833;
+    font-size: 0.9rem;
+}
+
+.intro {
+    background-color: #1f2833;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    padding-left: 17px;
+    display: block;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    transition: all 0.5s ease-in;
+    border: 1px solid #2f3b4c;
+}
+
+.intro:hover {
+    box-shadow: 0 15px 30px rgba(69, 243, 255, 0.2);
+}
+
+.car {
+    background-color: #1f2833;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    display: block;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    border: 1px solid #2f3b4c;
+    transition: all 0.5s ease-in;
+    padding: 30px;
+}
+
+.gap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+.ulal {
+    width: 47%;
+}
+
+.car:hover {
+    box-shadow: 0 15px 30px rgba(69, 243, 255, 0.2);
+    background: linear-gradient(to left, #1a212a, #374558);
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+button, input{
+    color: white;
+    margin: 3px;
+    padding: 3px;
+    background-color: rgb(37, 87, 94);
+}
